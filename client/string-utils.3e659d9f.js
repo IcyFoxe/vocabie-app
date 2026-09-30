@@ -1,0 +1,1 @@
+const t=()=>{const t=new Date;return`${t.getFullYear()}-${String(t.getMonth()+1).padStart(2,"0")}-${String(t.getDate()).padStart(2,"0")} ${String(t.getHours()).padStart(2,"0")}.${String(t.getMinutes()).padStart(2,"0")}`},e=t=>t.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();export{t as g,e as n};
