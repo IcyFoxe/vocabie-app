@@ -11,6 +11,10 @@
   outline: none;
 }
 
+html {
+  color-scheme: var(--color-scheme);
+}
+
 body {
   line-height: 1.5;
   color: var(--c-05);
@@ -52,6 +56,7 @@ body {
 
 /* theme colors */
 [theme="light"] {
+  --color-scheme: light;
   --c-01: #fff;
   --c-02: #fff;
   --c-03: #000;
@@ -64,7 +69,6 @@ body {
   --c-10: #005ab4;
   --c-11: #fff;
   --c-12: #f2610d;
-  /* old color: #ff5e00 */
   --c-13: #fff;
   --c-14: #b5bec4;
   --c-15: #fff;
@@ -83,6 +87,7 @@ body {
 }
 
 [theme="dark"] {
+  --color-scheme: dark;
   --c-01: #44474b;
   --c-02: #fff;
   --c-03: #fff;
